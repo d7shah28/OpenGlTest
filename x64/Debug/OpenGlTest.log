@@ -1,0 +1,36 @@
+﻿  mainWindow.cpp
+C:\Users\d7sha\Desktop\MyGameEngine\OpenGlTest\Linkers\glad\include\glad\glad.h(326,9): warning C4005: 'GL_ALL_ATTRIB_BITS': macro redefinition
+  (compiling source file 'mainWindow.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\GL\gl.h(107,9):
+      see previous definition of 'GL_ALL_ATTRIB_BITS'
+  
+C:\Users\d7sha\Desktop\MyGameEngine\OpenGlTest\Linkers\glad\include\glad\glad.h(414,9): warning C4005: 'GL_LOGIC_OP': macro redefinition
+  (compiling source file 'mainWindow.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\GL\gl.h(1152,9):
+      see previous definition of 'GL_LOGIC_OP'
+  
+C:\Users\d7sha\Desktop\MyGameEngine\OpenGlTest\Linkers\glad\include\glad\glad.h(498,9): warning C4005: 'GL_TEXTURE_COMPONENTS': macro redefinition
+  (compiling source file 'mainWindow.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\GL\gl.h(1153,9):
+      see previous definition of 'GL_TEXTURE_COMPONENTS'
+  
+C:\Users\d7sha\Desktop\MyGameEngine\OpenGlTest\Linkers\glad\include\glad\glad.h(592,9): warning C4005: 'GL_CLIENT_ALL_ATTRIB_BITS': macro redefinition
+  (compiling source file 'mainWindow.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\GL\gl.h(973,9):
+      see previous definition of 'GL_CLIENT_ALL_ATTRIB_BITS'
+  
+mainWindow.obj : error LNK2019: unresolved external symbol glfwInit referenced in function main
+mainWindow.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function main
+mainWindow.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function main
+mainWindow.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function main
+mainWindow.obj : error LNK2019: unresolved external symbol glfwDestroyWindow referenced in function main
+mainWindow.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function main
+mainWindow.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function main
+mainWindow.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function main
+mainWindow.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function main
+mainWindow.obj : error LNK2019: unresolved external symbol gladLoadGL referenced in function main
+mainWindow.obj : error LNK2001: unresolved external symbol glad_glClear
+mainWindow.obj : error LNK2001: unresolved external symbol glad_glClearColor
+mainWindow.obj : error LNK2001: unresolved external symbol glad_glViewport
+C:\Users\d7sha\Desktop\MyGameEngine\OpenGlTest\Linkers\glfw\lib\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\d7sha\Desktop\MyGameEngine\OpenGlTest\x64\Debug\OpenGlTest.exe : fatal error LNK1120: 13 unresolved externals
